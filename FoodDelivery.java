@@ -62,8 +62,8 @@ class FoodDelivery {
 		list1.putOrder(order3);
 		
 		DeliveryAgents agent1 = new DeliveryAgents("agentOne", list1);
-		DeliveryAgents agent2 = new DeliveryAgents("agentOne", list1);
-		DeliveryAgents agent3 = new DeliveryAgents("agentOne", list1);
+		DeliveryAgents agent2 = new DeliveryAgents("agentTwo", list1);
+		DeliveryAgents agent3 = new DeliveryAgents("agentThree", list1);
 		
 		agent1.start();
 		agent2.start();
